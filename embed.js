@@ -1,4 +1,5 @@
 // https://github.com/rinsuki/oss-twitter-embed
+// SPDX-License-Identifier: MIT
 
 ;(() => {
     var iframes = new Map()
