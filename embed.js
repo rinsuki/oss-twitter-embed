@@ -23,6 +23,7 @@
         const iframeURL = `https://platform.twitter.com/embed/index.html?dnt=true&embedId=${widgetId}&id=${tweetID}`
         const iframe = document.createElement("iframe")
         iframe.src = iframeURL
+        iframe.style.display = "block"
         iframe.style.width = "100%"
         iframe.style.maxWidth = "550px"
         iframe.setAttribute("allowtransparency", "1")
